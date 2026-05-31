@@ -1,43 +1,57 @@
-# Astro Starter Kit: Minimal
+# ?? Robote.ar - Sitio Web Comercial
 
-```sh
-npm create astro@latest -- --template minimal
+Sitio web comercial para **Robote.ar**, empresa argentina de bots de IA para PyMEs y medianas empresas.
+
+## ?? Ver el Sitio
+
+```bash
+npm run dev
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Abr�: **http://localhost:4321**
 
-## 🚀 Project Structure
+## ?? Estructura
 
-Inside of your Astro project, you'll see the following folders and files:
+- **/pages/index.astro** - Landing page principal
+- **/pages/robots.astro** - Cat�logo de robots
+- **/pages/robotica.astro** - P�gina educativa
+- **/pages/blog/** - Blog con art�culos SEO
+- **/data/robots.ts** - Datos de los 7 robots
+- **/components/** - Componentes reutilizables
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
+## ?? Funcionalidades
+
+? Landing page comercial con CTAs
+? Cat�logo de 7 robots especializados
+? P�ginas individuales de robots
+? P�gina educativa (arquitectura LangGraph)
+? Blog con 3 art�culos optimizados para SEO
+? Formulario de contacto (Web3Forms)
+? SEO completo (sitemap, meta tags, Schema.org)
+? Responsive design (mobile/tablet/desktop)
+
+## ? Pendientes
+
+- [ ] Configurar Web3Forms key (2 min)
+- [ ] Actualizar links de demos de robots (5 min)
+- [ ] Agregar im�genes reales de robots (opcional)
+- [ ] Deploy a Vercel/Netlify (10 min)
+
+## ?? Deploy
+
+### Vercel (Gratis)
+
+```bash
+npm i -g vercel
+vercel --prod
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+Configurar dominio robote.ar en Vercel Settings.
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+## ?? Documentaci�n Completa
 
-Any static assets, like images, can be placed in the `public/` directory.
+Ver **INICIO_RAPIDO.md** para instrucciones detalladas.
 
-## 🧞 Commands
+---
 
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+**Hecho con ?? en Argentina** ????

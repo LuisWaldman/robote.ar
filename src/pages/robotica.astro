@@ -1,0 +1,361 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Cómo Construimos Nuestros Robots de IA | Robote.ar"
+  description="Descubrí la tecnología detrás de nuestros bots: LangGraph, LangChain, FastAPI y GitHub Models. Arquitectura moderna con IA gratuita."
+  keywords="langgraph tutorial, langchain español, fastapi bot, arquitectura chatbot, react pattern ia"
+>
+  <!-- Hero -->
+  <section class="bg-gradient-to-br from-purple-600 to-blue-600 text-white py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h1 class="text-4xl md:text-5xl font-bold mb-6">
+        Cómo Construimos Estos Robots
+      </h1>
+      <p class="text-xl md:text-2xl text-purple-100 max-w-3xl mx-auto">
+        Tecnología de punta, 100% open source, con IA gratuita
+      </p>
+    </div>
+  </section>
+
+  <!-- Arquitectura Simplificada -->
+  <section class="py-20 bg-white">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-bold text-gray-900 mb-12 text-center">
+        Arquitectura del Sistema
+      </h2>
+
+      <div class="bg-gradient-to-br from-blue-50 to-purple-50 rounded-xl p-8 mb-12">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div class="bg-white rounded-lg p-6 shadow-md text-center">
+            <div class="text-4xl mb-3">🧠</div>
+            <h3 class="font-bold text-gray-900 mb-2">LLM (Cerebro)</h3>
+            <p class="text-sm text-gray-600">
+              GitHub Models (GPT-4o-mini) procesa el lenguaje natural y toma decisiones
+            </p>
+          </div>
+
+          <div class="bg-white rounded-lg p-6 shadow-md text-center">
+            <div class="text-4xl mb-3">🔄</div>
+            <h3 class="font-bold text-gray-900 mb-2">LangGraph (Pensamiento)</h3>
+            <p class="text-sm text-gray-600">
+              Patrón ReAct: Razona, Actúa, Observa y Repite hasta completar la tarea
+            </p>
+          </div>
+
+          <div class="bg-white rounded-lg p-6 shadow-md text-center">
+            <div class="text-4xl mb-3">⚡</div>
+            <h3 class="font-bold text-gray-900 mb-2">FastAPI (Sistema Nervioso)</h3>
+            <p class="text-sm text-gray-600">
+              API REST ultra-rápida que conecta el bot con WhatsApp, Telegram, etc.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Diagrama de Flujo -->
+      <div class="bg-gray-50 rounded-xl p-8">
+        <h3 class="text-2xl font-bold text-gray-900 mb-6 text-center">
+          Flujo de una Conversación
+        </h3>
+        
+        <div class="space-y-4">
+          <div class="flex items-center">
+            <div class="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center text-white font-bold flex-shrink-0">
+              1
+            </div>
+            <div class="ml-4 flex-grow bg-white rounded-lg p-4 shadow">
+              <p class="font-semibold text-gray-900">Cliente envía mensaje</p>
+              <p class="text-sm text-gray-600">Por WhatsApp, Telegram o la app web</p>
+            </div>
+          </div>
+
+          <div class="flex items-center">
+            <div class="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold flex-shrink-0">
+              2
+            </div>
+            <div class="ml-4 flex-grow bg-white rounded-lg p-4 shadow">
+              <p class="font-semibold text-gray-900">Gateway normaliza el mensaje</p>
+              <p class="text-sm text-gray-600">Convierte cualquier plataforma a formato estándar</p>
+            </div>
+          </div>
+
+          <div class="flex items-center">
+            <div class="w-12 h-12 bg-purple-500 rounded-full flex items-center justify-center text-white font-bold flex-shrink-0">
+              3
+            </div>
+            <div class="ml-4 flex-grow bg-white rounded-lg p-4 shadow">
+              <p class="font-semibold text-gray-900">Bot con LangGraph procesa</p>
+              <p class="text-sm text-gray-600">ReAct: Razona qué hacer → Ejecuta herramientas → Observa resultados</p>
+            </div>
+          </div>
+
+          <div class="flex items-center">
+            <div class="w-12 h-12 bg-cyan-500 rounded-full flex items-center justify-center text-white font-bold flex-shrink-0">
+              4
+            </div>
+            <div class="ml-4 flex-grow bg-white rounded-lg p-4 shadow">
+              <p class="font-semibold text-gray-900">Consulta datos del negocio</p>
+              <p class="text-sm text-gray-600">Precios, stock, catálogo desde el CRM</p>
+            </div>
+          </div>
+
+          <div class="flex items-center">
+            <div class="w-12 h-12 bg-amber-500 rounded-full flex items-center justify-center text-white font-bold flex-shrink-0">
+              5
+            </div>
+            <div class="ml-4 flex-grow bg-white rounded-lg p-4 shadow">
+              <p class="font-semibold text-gray-900">Responde al cliente</p>
+              <p class="text-sm text-gray-600">Con la información precisa, en lenguaje natural</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tecnologías -->
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-bold text-gray-900 mb-12 text-center">
+        Stack Tecnológico
+      </h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="bg-white rounded-xl shadow-lg p-6">
+          <h3 class="text-xl font-bold text-gray-900 mb-3">🐍 Backend</h3>
+          <ul class="space-y-2 text-gray-700">
+            <li>• Python 3.11+</li>
+            <li>• FastAPI (API REST)</li>
+            <li>• LangGraph (Agentes)</li>
+            <li>• LangChain (Tools)</li>
+            <li>• Pydantic v2 (Validación)</li>
+          </ul>
+        </div>
+
+        <div class="bg-white rounded-xl shadow-lg p-6">
+          <h3 class="text-xl font-bold text-gray-900 mb-3">🤖 Inteligencia Artificial</h3>
+          <ul class="space-y-2 text-gray-700">
+            <li>• GitHub Models (GPT-4o-mini)</li>
+            <li>• OpenAI API (opcional)</li>
+            <li>• Ollama (local, opcional)</li>
+            <li>• Patrón ReAct</li>
+            <li>• Memory Management</li>
+          </ul>
+        </div>
+
+        <div class="bg-white rounded-xl shadow-lg p-6">
+          <h3 class="text-xl font-bold text-gray-900 mb-3">💬 Integraciones</h3>
+          <ul class="space-y-2 text-gray-700">
+            <li>• WhatsApp Business API</li>
+            <li>• Telegram Bot API</li>
+            <li>• Twitter/X API</li>
+            <li>• Cliente Web (Vue 3)</li>
+            <li>• WebSockets (tiempo real)</li>
+          </ul>
+        </div>
+
+        <div class="bg-white rounded-xl shadow-lg p-6">
+          <h3 class="text-xl font-bold text-gray-900 mb-3">🗄️ Datos</h3>
+          <ul class="space-y-2 text-gray-700">
+            <li>• Archivos JSON (simple)</li>
+            <li>• MemorySaver (LangGraph)</li>
+            <li>• Node.js CRM Server</li>
+            <li>• TypeScript</li>
+            <li>• Express</li>
+          </ul>
+        </div>
+
+        <div class="bg-white rounded-xl shadow-lg p-6">
+          <h3 class="text-xl font-bold text-gray-900 mb-3">🎨 Frontend</h3>
+          <ul class="space-y-2 text-gray-700">
+            <li>• Vue 3 Composition API</li>
+            <li>• TypeScript</li>
+            <li>• Vite</li>
+            <li>• Tailwind CSS</li>
+            <li>• Interfaz tipo WhatsApp</li>
+          </ul>
+        </div>
+
+        <div class="bg-white rounded-xl shadow-lg p-6">
+          <h3 class="text-xl font-bold text-gray-900 mb-3">🚀 Deploy</h3>
+          <ul class="space-y-2 text-gray-700">
+            <li>• Servidor Linux (VPS)</li>
+            <li>• Docker (opcional)</li>
+            <li>• Nginx (reverse proxy)</li>
+            <li>• PM2 (process manager)</li>
+            <li>• Git CI/CD</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Patrón ReAct Explicado -->
+  <section class="py-20 bg-white">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-bold text-gray-900 mb-8 text-center">
+        El Patrón ReAct: El Cerebro del Bot
+      </h2>
+
+      <div class="bg-gradient-to-br from-blue-50 to-purple-50 rounded-xl p-8 mb-8">
+        <p class="text-lg text-gray-700 mb-6">
+          ReAct (Reason + Act) es el patrón que permite a nuestros bots pensar y actuar como un humano.
+          En lugar de solo responder, el bot <strong>razona</strong> sobre qué hacer, <strong>ejecuta</strong> acciones,
+          <strong>observa</strong> los resultados y <strong>repite</strong> hasta completar la tarea.
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+          <div class="bg-white rounded-lg p-6 text-center shadow-md">
+            <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-3">
+              <span class="text-3xl">💭</span>
+            </div>
+            <h4 class="font-bold text-gray-900 mb-2">Reason</h4>
+            <p class="text-sm text-gray-600">
+              Analiza la solicitud del usuario y decide qué herramienta usar
+            </p>
+          </div>
+
+          <div class="bg-white rounded-lg p-6 text-center shadow-md">
+            <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-3">
+              <span class="text-3xl">⚡</span>
+            </div>
+            <h4 class="font-bold text-gray-900 mb-2">Act</h4>
+            <p class="text-sm text-gray-600">
+              Ejecuta la herramienta (buscar precio, consultar stock, etc.)
+            </p>
+          </div>
+
+          <div class="bg-white rounded-lg p-6 text-center shadow-md">
+            <div class="w-16 h-16 bg-cyan-100 rounded-full flex items-center justify-center mx-auto mb-3">
+              <span class="text-3xl">👀</span>
+            </div>
+            <h4 class="font-bold text-gray-900 mb-2">Observe</h4>
+            <p class="text-sm text-gray-600">
+              Recibe y analiza los resultados de la herramienta
+            </p>
+          </div>
+
+          <div class="bg-white rounded-lg p-6 text-center shadow-md">
+            <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-3">
+              <span class="text-3xl">🔄</span>
+            </div>
+            <h4 class="font-bold text-gray-900 mb-2">Repeat</h4>
+            <p class="text-sm text-gray-600">
+              Continúa el ciclo hasta completar la solicitud del usuario
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-gray-100 rounded-lg p-6">
+        <h4 class="font-semibold text-gray-900 mb-3">Ejemplo Real:</h4>
+        <div class="space-y-3 text-sm">
+          <p class="text-gray-700">
+            <strong>Cliente:</strong> "¿Cuánto sale el sillón de 3 cuerpos?"
+          </p>
+          <p class="text-blue-600">
+            <strong>Reason:</strong> Necesito buscar el precio del sillón → Usar herramienta get_price()
+          </p>
+          <p class="text-purple-600">
+            <strong>Act:</strong> Ejecuta get_price("sillón 3 cuerpos")
+          </p>
+          <p class="text-cyan-600">
+            <strong>Observe:</strong> Resultado: $450.000 - Stock: 3 unidades
+          </p>
+          <p class="text-gray-700">
+            <strong>Respuesta:</strong> "El sillón de 3 cuerpos está $450.000 y tenemos 3 en stock. ¿Te interesa?"
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ventajas -->
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-bold text-gray-900 mb-12 text-center">
+        ¿Por Qué Esta Arquitectura?
+      </h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="bg-white rounded-xl shadow-lg p-8">
+          <div class="flex items-start">
+            <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0">
+              <span class="text-2xl">💰</span>
+            </div>
+            <div class="ml-4">
+              <h3 class="text-xl font-bold text-gray-900 mb-2">IA Gratuita</h3>
+              <p class="text-gray-700">
+                GitHub Models ofrece GPT-4o-mini <strong>gratis</strong> para desarrollo.
+                Perfecto para PyMEs que recién empiezan.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-xl shadow-lg p-8">
+          <div class="flex items-start">
+            <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center flex-shrink-0">
+              <span class="text-2xl">🔧</span>
+            </div>
+            <div class="ml-4">
+              <h3 class="text-xl font-bold text-gray-900 mb-2">Modular</h3>
+              <p class="text-gray-700">
+                Cada componente es independiente. Podés cambiar el LLM, agregar plataformas o actualizar el CRM sin romper nada.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-xl shadow-lg p-8">
+          <div class="flex items-start">
+            <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center flex-shrink-0">
+              <span class="text-2xl">📱</span>
+            </div>
+            <div class="ml-4">
+              <h3 class="text-xl font-bold text-gray-900 mb-2">Multi-Plataforma</h3>
+              <p class="text-gray-700">
+                Un solo bot funciona en WhatsApp, Telegram, Twitter/X y web.
+                Escribís el código una vez, funciona en todos lados.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-xl shadow-lg p-8">
+          <div class="flex items-start">
+            <div class="w-12 h-12 bg-amber-100 rounded-full flex items-center justify-center flex-shrink-0">
+              <span class="text-2xl">🇦🇷</span>
+            </div>
+            <div class="ml-4">
+              <h3 class="text-xl font-bold text-gray-900 mb-2">100% Open Source</h3>
+              <p class="text-gray-700">
+                Toda la tecnología es open source. No dependés de plataformas cerradas ni licencias caras.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Educativo -->
+  <section class="py-20 bg-white">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+        ¿Querés Aprender a Crear tus Propios Bots?
+      </h2>
+      <p class="text-xl text-gray-600 mb-8">
+        Estamos trabajando en talleres y workshops para enseñar esta tecnología en Argentina
+      </p>
+      <a
+        href="/#contacto"
+        class="inline-block px-8 py-4 bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white rounded-full font-bold text-lg transition-colors shadow-lg"
+      >
+        Anotarme en la Lista de Interesados 📚
+      </a>
+    </div>
+  </section>
+</BaseLayout>
