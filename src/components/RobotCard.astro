@@ -22,8 +22,12 @@ const gradientClass = accentColors[robot.colorAccent as keyof typeof accentColor
 ---
 
 <div class={`bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow ${featured ? 'md:col-span-2' : ''}`}>
-  <div class={`h-48 bg-gradient-to-br ${gradientClass} flex items-center justify-center`}>
-    <div class="text-8xl">🤖</div>
+  <div class={`h-48 bg-gradient-to-br ${gradientClass} flex items-center justify-center overflow-hidden`}>
+    <img 
+      src={robot.imagen} 
+      alt={robot.nombre}
+      class="w-full h-full object-cover"
+    />
   </div>
   
   <div class="p-6">
