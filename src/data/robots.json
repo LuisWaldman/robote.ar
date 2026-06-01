@@ -1,5 +1,62 @@
 [
   {
+    "id": "maria-verduleria",
+    "nombre": "María Verdulera",
+    "industria": "Comercio de Proximidad / Verdulerías",
+    "descripcionCorta": "Nunca se equivoca con los kilos ni te cobra de más. Registra pedidos de frutas y verduras.",
+    "descripcionLarga": "María atiende tu verdulería por WhatsApp como si estuviera atrás del mostrador, pero sin la espalda dolorida de levantar cajones todo el día.\n\nToma pedidos de frutas y verduras, te dice qué está fresco, qué llegó hoy, qué está en oferta. Nunca se equivoca con las cuentas ni con los kilos. Es matemáticamente perfecta.\n\nLos clientes le mandan la lista del super por WhatsApp, María les arma el pedido, les dice el precio total y coordina la entrega o el retiro. Más fácil imposible.",
+    "capacidades": [
+      "Toma de pedidos por WhatsApp",
+      "Catálogo de productos frescos con precios actualizados",
+      "Cálculo automático de totales",
+      "Gestión de entregas a domicilio",
+      "Alertas de ofertas y productos del día"
+    ],
+    "imagen": "/robots/maria-verdulera.jpg",
+    "demoTelegram": "https://t.me/maria_verduleria_bot",
+    "demoWhatsApp": "https://wa.me/549XXXXXXXXX?text=Hola%20Maria",
+    "demoLocal": "http://localhost:7878/maria-verduleria/usuariodemo",
+    "colorAccent": "lime"
+  },
+  {
+    "id": "carlos-cabanas",
+    "nombre": "Carlos - Cabañas San Rafael",
+    "industria": "Turismo / Hotelería",
+    "descripcionCorta": "Con onda de mendocino tomando vino. Te va a convencer de ir aunque no tengas vacaciones.",
+    "descripcionLarga": "Carlos maneja las reservas de cabañas en San Rafael, Mendoza. Tiene el estilo relajado del mendocino que está tomando un vinito en la galería, pero labura como si le pagaras en dólares.\n\nTe cuenta de las cabañas, te muestra fotos, te dice qué fechas están disponibles y hasta te recomienda bodegas para visitar. Es como hablar con el dueño de las cabañas, pero este no se va de pesca los fines de semana.\n\nAtiende consultas, reservas, te manda info de turismo local y hasta te sugiere qué hacer en San Rafael según el clima. Un capo total.",
+    "capacidades": [
+      "Consulta de disponibilidad de cabañas",
+      "Gestión de reservas y pagos",
+      "Información turística de San Rafael y alrededores",
+      "Recomendaciones de bodegas y actividades",
+      "Check-in/check-out automático"
+    ],
+    "imagen": "/robots/carlos.jpg",
+    "demoTelegram": "https://t.me/carlos_cabanas_bot",
+    "demoWhatsApp": "https://wa.me/549XXXXXXXXX?text=Hola%20Carlos",
+    "demoLocal": "http://localhost:7878/carlos/usuariodemo",
+    "colorAccent": "purple"
+  },
+  {
+    "id": "angela-moza",
+    "nombre": "Ángela la Moza",
+    "industria": "Gastronomía / Restaurantes",
+    "descripcionCorta": "No se cansa aunque sea sábado a la noche. Toma pedidos y reserva mesas sin olvidarse ni confundirse.",
+    "descripcionLarga": "Ángela es la moza que todo restaurante necesita. No se olvida de ningún pedido, no se confunde con las mesas, no se queja del cansancio y atiende con la misma onda a la mesa 1 que a la mesa 50.\n\nToma pedidos por WhatsApp, reserva mesas, te dice el menú del día, te avisa si algo no hay. Es como tener una moza con memoria fotográfica y paciencia infinita.\n\nEl sábado a la noche cuando el restaurante está explotado, Ángela atiende 200 mensajes de WhatsApp sin transpirar. Los lunes también, pero sin el drama del fin de semana.",
+    "capacidades": [
+      "Toma de pedidos por WhatsApp/Telegram",
+      "Reservas de mesas con confirmación",
+      "Menú digital con fotos y descripciones",
+      "Consulta de alérgenos e ingredientes",
+      "Notificaciones de estado de pedidos"
+    ],
+    "imagen": "/robots/angela-moza.jpg",
+    "demoTelegram": "https://t.me/angela_restaurant_bot",
+    "demoWhatsApp": "https://wa.me/549XXXXXXXXX?text=Hola%20Angela",
+    "demoLocal": "http://localhost:7878/angela-moza/usuariodemo",
+    "colorAccent": "pink"
+  },
+  {
     "id": "luis-vendedor-bots",
     "nombre": "Luis el Vendedor de Bots",
     "industria": "Meta / Tecnología",
@@ -57,44 +114,6 @@
     "colorAccent": "green"
   },
   {
-    "id": "carlos-cabanas",
-    "nombre": "Carlos - Cabañas San Rafael",
-    "industria": "Turismo / Hotelería",
-    "descripcionCorta": "Con onda de mendocino tomando vino. Te va a convencer de ir aunque no tengas vacaciones.",
-    "descripcionLarga": "Carlos maneja las reservas de cabañas en San Rafael, Mendoza. Tiene el estilo relajado del mendocino que está tomando un vinito en la galería, pero labura como si le pagaras en dólares.\n\nTe cuenta de las cabañas, te muestra fotos, te dice qué fechas están disponibles y hasta te recomienda bodegas para visitar. Es como hablar con el dueño de las cabañas, pero este no se va de pesca los fines de semana.\n\nAtiende consultas, reservas, te manda info de turismo local y hasta te sugiere qué hacer en San Rafael según el clima. Un capo total.",
-    "capacidades": [
-      "Consulta de disponibilidad de cabañas",
-      "Gestión de reservas y pagos",
-      "Información turística de San Rafael y alrededores",
-      "Recomendaciones de bodegas y actividades",
-      "Check-in/check-out automático"
-    ],
-    "imagen": "/robots/carlos.jpg",
-    "demoTelegram": "https://t.me/carlos_cabanas_bot",
-    "demoWhatsApp": "https://wa.me/549XXXXXXXXX?text=Hola%20Carlos",
-    "demoLocal": "http://localhost:7878/carlos/usuariodemo",
-    "colorAccent": "purple"
-  },
-  {
-    "id": "maria-moza",
-    "nombre": "María la Moza",
-    "industria": "Gastronomía / Restaurantes",
-    "descripcionCorta": "No se cansa aunque sea sábado a la noche. Toma pedidos y reserva mesas sin olvidarse ni confundirse.",
-    "descripcionLarga": "María es la moza que todo restaurante necesita. No se olvida de ningún pedido, no se confunde con las mesas, no se queja del cansancio y atiende con la misma onda a la mesa 1 que a la mesa 50.\n\nToma pedidos por WhatsApp, reserva mesas, te dice el menú del día, te avisa si algo no hay. Es como tener una moza con memoria fotográfica y paciencia infinita.\n\nEl sábado a la noche cuando el restaurante está explotado, María atiende 200 mensajes de WhatsApp sin transpirar. Los lunes también, pero sin el drama del fin de semana.",
-    "capacidades": [
-      "Toma de pedidos por WhatsApp/Telegram",
-      "Reservas de mesas con confirmación",
-      "Menú digital con fotos y descripciones",
-      "Consulta de alérgenos e ingredientes",
-      "Notificaciones de estado de pedidos"
-    ],
-    "imagen": "/robots/maria-moza.jpg",
-    "demoTelegram": "https://t.me/maria_restaurant_bot",
-    "demoWhatsApp": "https://wa.me/549XXXXXXXXX?text=Hola%20Maria",
-    "demoLocal": "http://localhost:7878/maria-moza/usuariodemo",
-    "colorAccent": "pink"
-  },
-  {
     "id": "juan-domingo-webon",
     "nombre": "Juan Domingo Webon",
     "industria": "Política / Redes Sociales",
@@ -150,25 +169,6 @@
     "demoWhatsApp": "https://wa.me/549XXXXXXXXX?text=Hola%20Lita",
     "demoLocal": "http://localhost:7878/lita/usuariodemo",
     "colorAccent": "rose"
-  },
-  {
-    "id": "maria-verduleria",
-    "nombre": "María Verdulera",
-    "industria": "Comercio de Proximidad / Verdulerías",
-    "descripcionCorta": "Nunca se equivoca con los kilos ni te cobra de más. Registra pedidos de frutas y verduras.",
-    "descripcionLarga": "María atiende tu verdulería por WhatsApp como si estuviera atrás del mostrador, pero sin la espalda dolorida de levantar cajones todo el día.\n\nToma pedidos de frutas y verduras, te dice qué está fresco, qué llegó hoy, qué está en oferta. Nunca se equivoca con las cuentas ni con los kilos. Es matemáticamente perfecta.\n\nLos clientes le mandan la lista del super por WhatsApp, María les arma el pedido, les dice el precio total y coordina la entrega o el retiro. Más fácil imposible.",
-    "capacidades": [
-      "Toma de pedidos por WhatsApp",
-      "Catálogo de productos frescos con precios actualizados",
-      "Cálculo automático de totales",
-      "Gestión de entregas a domicilio",
-      "Alertas de ofertas y productos del día"
-    ],
-    "imagen": "/robots/maria-verdulera.jpg",
-    "demoTelegram": "https://t.me/maria_verduleria_bot",
-    "demoWhatsApp": "https://wa.me/549XXXXXXXXX?text=Hola%20Maria",
-    "demoLocal": "http://localhost:7878/maria-verduleria/usuariodemo",
-    "colorAccent": "lime"
   },
   {
     "id": "graciela-contadora",
