@@ -169,5 +169,24 @@
     "demoWhatsApp": "https://wa.me/549XXXXXXXXX?text=Hola%20Maria",
     "demoLocal": "http://localhost:7878/maria-verduleria/usuariodemo",
     "colorAccent": "lime"
+  },
+  {
+    "id": "graciela-contadora",
+    "nombre": "Graciela - Contadora",
+    "industria": "Servicios Profesionales / Contabilidad",
+    "descripcionCorta": "Cierra balances mientras vos dormís. Nunca se olvida de un vencimiento ni se confunde con los números.",
+    "descripcionLarga": "Graciela es la contadora que siempre quisiste tener en tu equipo. Está disponible 24/7, nunca se toma vacaciones justo cuando vence AFIP, y jamás se equivoca con un número.\n\nTe avisa de todos los vencimientos impositivos, te ayuda a registrar gastos e ingresos, te arma informes de gestión y hasta te explica qué podés deducir y qué no. Todo con la paciencia de alguien que realmente ama los números.\n\n¿Necesitás saber cuánto facturaste este mes? Graciela te lo dice al instante. ¿Se te pasó un vencimiento? Imposible, ella te avisa con tiempo. Es como tener una contadora senior que además tiene superpoderes de organización y memoria infinita.",
+    "capacidades": [
+      "Registro de ingresos y gastos",
+      "Alertas de vencimientos impositivos (AFIP, IIBB, etc.)",
+      "Informes de gestión y cash flow",
+      "Consultas sobre deducciones y categorías fiscales",
+      "Seguimiento de facturas emitidas y recibidas"
+    ],
+    "imagen": "/robots/graciela.jpg",
+    "demoTelegram": "https://t.me/graciela_contadora_bot",
+    "demoWhatsApp": "https://wa.me/549XXXXXXXXX?text=Hola%20Graciela",
+    "demoLocal": "http://localhost:7878/graciela/usuariodemo",
+    "colorAccent": "indigo"
   }
 ]
