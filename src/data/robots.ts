@@ -12,6 +12,7 @@ export interface Robot {
   demoWhatsApp?: string;
   demoLocal: string;
   colorAccent: string;
+  endesarrollo: boolean;
 }
 
 export const robots: Robot[] = robotsData as Robot[];

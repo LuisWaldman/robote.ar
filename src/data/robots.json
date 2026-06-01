@@ -16,7 +16,8 @@
     "demoTelegram": "https://t.me/maria_verduleria_bot",
     "demoWhatsApp": "https://wa.me/549XXXXXXXXX?text=Hola%20Maria",
     "demoLocal": "http://localhost:7878/maria-verduleria/usuariodemo",
-    "colorAccent": "lime"
+    "colorAccent": "lime",
+    "endesarrollo": true
   },
   {
     "id": "carlos-cabanas",
@@ -35,7 +36,8 @@
     "demoTelegram": "https://t.me/carlos_cabanas_bot",
     "demoWhatsApp": "https://wa.me/549XXXXXXXXX?text=Hola%20Carlos",
     "demoLocal": "http://localhost:7878/carlos/usuariodemo",
-    "colorAccent": "purple"
+    "colorAccent": "purple",
+    "endesarrollo": true
   },
   {
     "id": "angela-moza",
@@ -54,7 +56,8 @@
     "demoTelegram": "https://t.me/angela_restaurant_bot",
     "demoWhatsApp": "https://wa.me/549XXXXXXXXX?text=Hola%20Angela",
     "demoLocal": "http://localhost:7878/angela-moza/usuariodemo",
-    "colorAccent": "pink"
+    "colorAccent": "pink",
+    "endesarrollo": true
   },
   {
     "id": "luis-vendedor-bots",
@@ -73,7 +76,8 @@
     "demoTelegram": "https://t.me/luis_bot",
     "demoWhatsApp": "https://wa.me/549XXXXXXXXX?text=Hola%20Luis",
     "demoLocal": "http://localhost:7878/luis/usuariodemo",
-    "colorAccent": "blue"
+    "colorAccent": "blue",
+    "endesarrollo": true
   },
   {
     "id": "javier-muebles",
@@ -92,7 +96,8 @@
     "demoTelegram": "https://t.me/javier_muebles_bot",
     "demoWhatsApp": "https://wa.me/549XXXXXXXXX?text=Hola%20Javier",
     "demoLocal": "http://localhost:7878/javier/usuariodemo",
-    "colorAccent": "amber"
+    "colorAccent": "amber",
+    "endesarrollo": true
   },
   {
     "id": "martin-ropa-industrial",
@@ -111,7 +116,8 @@
     "demoTelegram": "https://t.me/martin_ropa_bot",
     "demoWhatsApp": "https://wa.me/549XXXXXXXXX?text=Hola%20Martin",
     "demoLocal": "http://localhost:7878/martin/usuariodemo",
-    "colorAccent": "green"
+    "colorAccent": "green",
+    "endesarrollo": true
   },
   {
     "id": "juan-domingo-webon",
@@ -130,7 +136,8 @@
     "demoTelegram": "https://t.me/juandomingo_webon_bot",
     "demoWhatsApp": "https://wa.me/549XXXXXXXXX?text=Hola%20Juan%20Domingo",
     "demoLocal": "http://localhost:7878/juan-domingo/usuariodemo",
-    "colorAccent": "cyan"
+    "colorAccent": "cyan",
+    "endesarrollo": true
   },
   {
     "id": "minita-libertaria",
@@ -149,7 +156,8 @@
     "demoTelegram": "https://t.me/minita_libertaria_bot",
     "demoWhatsApp": "https://wa.me/549XXXXXXXXX?text=Hola%20Minita",
     "demoLocal": "http://localhost:7878/minita/usuariodemo",
-    "colorAccent": "yellow"
+    "colorAccent": "yellow",
+    "endesarrollo": true
   },
   {
     "id": "lita-ama-casa",
@@ -168,7 +176,8 @@
     "demoTelegram": "https://t.me/lita_amacasa_bot",
     "demoWhatsApp": "https://wa.me/549XXXXXXXXX?text=Hola%20Lita",
     "demoLocal": "http://localhost:7878/lita/usuariodemo",
-    "colorAccent": "rose"
+    "colorAccent": "rose",
+    "endesarrollo": true
   },
   {
     "id": "graciela-contadora",
@@ -187,6 +196,7 @@
     "demoTelegram": "https://t.me/graciela_contadora_bot",
     "demoWhatsApp": "https://wa.me/549XXXXXXXXX?text=Hola%20Graciela",
     "demoLocal": "http://localhost:7878/graciela/usuariodemo",
-    "colorAccent": "indigo"
+    "colorAccent": "indigo",
+    "endesarrollo": true
   }
 ]
