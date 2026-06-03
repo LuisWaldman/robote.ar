@@ -198,5 +198,25 @@
     "demoLocal": "http://localhost:7878/graciela/usuariodemo",
     "colorAccent": "indigo",
     "endesarrollo": true
+  },
+  {
+    "id": "ana-arma-parejas",
+    "nombre": "Ana la Arma Parejas",
+    "industria": "Servicios / Matchmaking",
+    "descripcionCorta": "Mejor que cualquier app, contale lo que querés y te consigue alguien para vos.",
+    "descripcionLarga": "Ana es la casamentera digital que todas las apps de citas quisieran ser. Nada de swipear como un zombie, nada de match que no hablan, nada de perfiles falsos. Ana te escucha de verdad.\n\nLe contás qué buscás en una pareja, qué te gusta, qué te rompe las pelotas, y ella te conecta con gente real que encaja con lo que necesitás. No te manda cualquier cosa, sino perfiles que realmente tienen onda con vos.\n\n¿Cansado de las apps donde nadie habla? Ana te presenta personas que están buscando lo mismo que vos. ¿Harto de los perfiles genéricos? Ana conoce a la gente de verdad, más allá de 3 fotos y una bio pedorra. Es como tener una amiga que conoce a todo el mundo y siempre sabe quién te puede gustar.",
+    "capacidades": [
+      "Entrevista personalizada para conocer tus preferencias",
+      "Matchmaking inteligente basado en compatibilidad real",
+      "Presentaciones con contexto (no solo un match mudo)",
+      "Seguimiento de citas y feedback para mejorar matches",
+      "Consejos personalizados para primeras citas"
+    ],
+    "imagen": "/robots/ana.jpg",
+    "demoTelegram": "https://t.me/ana_arma_parejas_bot",
+    "demoWhatsApp": "https://wa.me/549XXXXXXXXX?text=Hola%20Ana",
+    "demoLocal": "http://localhost:7878/ana-arma-parejas/usuariodemo",
+    "colorAccent": "red",
+    "endesarrollo": true
   }
 ]

@@ -8,6 +8,7 @@ import sitemap from '@astrojs/sitemap';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://robote.ar',
+  base: '/',
   vite: {
     plugins: [tailwindcss()]
   },
