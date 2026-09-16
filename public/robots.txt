@@ -1,6 +1,0 @@
-# robots.txt para robote.ar
-User-agent: *
-Allow: /
-Disallow: /api/
-
-Sitemap: https://robote.ar/sitemap-index.xml

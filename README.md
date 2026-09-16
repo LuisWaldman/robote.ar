@@ -1,57 +1,47 @@
-# ?? Robote.ar - Sitio Web Comercial
+# Robote.ar - Vue + TypeScript
 
-Sitio web comercial para **Robote.ar**, empresa argentina de bots de IA para PyMEs y medianas empresas.
+Una aplicaciÃ³n web construida con Vue 3, TypeScript y Vite. Desplegada automÃ¡ticamente en GitHub Pages.
 
-## ?? Ver el Sitio
+## CaracterÃ­sticas
+
+- âš¡ **Vite** - Build tool ultrarrÃ¡pido
+- ðŸ–– **Vue 3** - Framework progresivo de JavaScript
+- ðŸŽ¯ **TypeScript** - Tipado estÃ¡tico
+- ðŸ“¦ **GitHub Pages** - Despliegue automÃ¡tico
+
+## InstalaciÃ³n
+
+```bash
+npm install
+```
+
+## Desarrollo
 
 ```bash
 npm run dev
 ```
 
-Abrí: **http://localhost:4321**
+La aplicaciÃ³n estarÃ¡ disponible en `http://localhost:5173/`
 
-## ?? Estructura
-
-- **/pages/index.astro** - Landing page principal
-- **/pages/robots.astro** - Catálogo de robots
-- **/pages/robotica.astro** - Página educativa
-- **/pages/blog/** - Blog con artículos SEO
-- **/data/robots.ts** - Datos de los 7 robots
-- **/components/** - Componentes reutilizables
-
-## ?? Funcionalidades
-
-? Landing page comercial con CTAs
-? Catálogo de 7 robots especializados
-? Páginas individuales de robots
-? Página educativa (arquitectura LangGraph)
-? Blog con 3 artículos optimizados para SEO
-? Formulario de contacto (Web3Forms)
-? SEO completo (sitemap, meta tags, Schema.org)
-? Responsive design (mobile/tablet/desktop)
-
-## ? Pendientes
-
-- [ ] Configurar Web3Forms key (2 min)
-- [ ] Actualizar links de demos de robots (5 min)
-- [ ] Agregar imágenes reales de robots (opcional)
-- [ ] Deploy a Vercel/Netlify (10 min)
-
-## ?? Deploy
-
-### Vercel (Gratis)
+## Build
 
 ```bash
-npm i -g vercel
-vercel --prod
+npm run build
 ```
 
-Configurar dominio robote.ar en Vercel Settings.
+Genera la aplicaciÃ³n optimizada en la carpeta `dist/`
 
-## ?? Documentación Completa
+## Deploy
 
-Ver **INICIO_RAPIDO.md** para instrucciones detalladas.
+```bash
+npm run deploy
+```
 
----
+Compila y despliega automÃ¡ticamente en GitHub Pages.
 
-**Hecho con ?? en Argentina** ????
+**Nota:** GitHub Actions despliega automÃ¡ticamente en cada `push` a `main` o `master`.
+
+## Requisitos
+
+- Node.js >= 16
+- npm >= 7
